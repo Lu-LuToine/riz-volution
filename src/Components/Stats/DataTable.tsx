@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
-import { Input } from "@/Components/ui/input";
-import { Table, TableHeader, TableHead, TableBody, TableRow, TableCell } from "@/Components/ui/table";
+import { Input } from "@/Components/ui/input.tsx";
+import { Table, TableHeader, TableHead, TableBody, TableRow, TableCell } from "@/Components/ui/table.tsx";
 
 export default function DataTable({ title, data, columns }) {
     const [filter, setFilter] = useState("");

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import StatsCards from "@/Components/StatsCards";
-import DataTable from "@/Components/DataTable";
-import Charts from "@/Components/Charts";
+import StatsCards from "@/Components/Stats/StatsCards.tsx";
+import DataTable from "@/Components/Stats/DataTable.tsx";
+import Charts from "@/Components/Stats/Charts.tsx";
 
 export default function StatsDashboard() {
     const [data, setData] = useState(null);

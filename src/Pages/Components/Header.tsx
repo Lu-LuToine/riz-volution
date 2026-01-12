@@ -46,7 +46,12 @@ function Header(){
 
                 ) :
                 <>
-                    Bonjour
+                    <Link to="/">
+                        <img
+                            src="/logo_bde_nobg.png"
+                            className="h-20 w-auto"
+                        />
+                    </Link>
                 </>
             }
         </header>

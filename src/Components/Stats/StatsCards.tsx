@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardContent } from "@/Components/ui/card";
+import { Card, CardHeader, CardContent } from "@/Components/ui/card.tsx";
 
 export default function StatsCards({ statistiques }) {
     const cards = [

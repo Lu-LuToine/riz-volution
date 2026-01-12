@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardContent } from "@/Components/ui/card";
+import { Card, CardHeader, CardContent } from "@/Components/ui/card.tsx";
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts";
 
 export default function Charts({ repartitionPaiements, ventesParMois }) {
