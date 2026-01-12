@@ -8,7 +8,6 @@ export default function OrdersHistoryPage() {
         fetch("/data.json")
             .then(res => res.json())
             .then(json => {
-                // Ici, adapter en fonction de ta structure JSON pour les commandes
                 setOrders(json.commandes || []);
             })
             .catch(err => console.error("Erreur chargement JSON :", err));
