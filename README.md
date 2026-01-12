@@ -4,3 +4,11 @@ RIZ VOLUTION LUSTUCRU
 
 
 ![img.png](riz-volution-readme.png)
+
+--- 
+
+Pour lancer le projet : 
+
+- clone le repo
+- `pnpm install` (installer les dépendances)
+- `npm run dev` (lancer le projet)
